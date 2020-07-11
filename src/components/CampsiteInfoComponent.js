@@ -49,7 +49,7 @@ function RenderComments({comments}){
                             <h2>{props.campsite.name}</h2>
                             <hr />
                     </div>
-            </div>
+                    </div>
                     <div className="row">
                         <RenderCampsite campsite={props.campsite} />
                         <RenderComments comments={props.comments} />
